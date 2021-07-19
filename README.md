@@ -1,6 +1,8 @@
 # GWSkyNet: Pytorch
 The main source of inspiration for this project is the paper by Cabero *et. al.* [here](https://arxiv.org/abs/2010.11829)
 
+# Updates
+- July 19th, 2021: Added Balan's notebook for generation of Bilby priors. 
 ## Tasks 
 - [ ] Make Training Dataset input values using the priors mentioned in the above paper using Bilby package 
 - [ ] Generate the training dataset and add the noise inputs (Till here its common with the CNN we used for the Habbard et. al. implementation [here](https://colab.research.google.com/drive/15ysgVLkekNNomT2xp3F0d52l_qNvGNfd) and [here](https://colab.research.google.com/drive/193QYO1Lu59nSOK_xUm-LXDk5rBl-z6Iv))
