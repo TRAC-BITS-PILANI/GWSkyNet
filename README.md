@@ -1,11 +1,11 @@
 # GWSkyNet: Pytorch
 The main source of inspiration for this project is the paper by Cabero *et. al.* [here](https://arxiv.org/abs/2010.11829)
 
-# Updates
+## Updates
 - July 19th, 2021: Added Balan's notebook for generation of Bilby priors. 
 - August 12th, 2021: Added some shell commands to get the injection data for binary neutron stars (refer Bayestar tutorial)
 
-# Bayestar tutorial
+## Bayestar tutorial
 - Tutorial for Running bayestar on injection data (priors), [here](https://lscsoft.docs.ligo.org/ligo.skymap/quickstart/bayestar-injections.html)
 
 ## Tasks 
@@ -15,4 +15,8 @@ The main source of inspiration for this project is the paper by Cabero *et. al.*
 - [ ] Develop the model for the Network, make a few variations of the model for experimentation
 - [ ] For test dataset we use the ligo-gracedb package and extract detected events and test our model
 - [ ] Further, if possible try and improve the architecture or we can think of a new problem statement and adapt towards that
-  
+
+## Dependencies
+- `ligo.skymap` 
+- `astropy`
+- `pytorch`
