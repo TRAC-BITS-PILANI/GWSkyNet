@@ -1,4 +1,3 @@
-
 lalapps_inspinj \
 -o inj.xml \
 --m-distr fixMasses --fixed-mass1 1.2 --fixed-mass2 2.2 \
@@ -40,8 +39,7 @@ ligo-skymap-stats \
 --area 10 100 \
 --modes \
 -j 8
-&
-ligo-skymap-plot-stats bayestar.tsv
+
 
 
 
