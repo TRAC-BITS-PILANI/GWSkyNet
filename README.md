@@ -3,9 +3,11 @@ The main source of inspiration for this project is the paper by Cabero *et. al.*
 
 # Updates
 - July 19th, 2021: Added Balan's notebook for generation of Bilby priors. 
+- August 12th, 2021: Added some shell commands to get the injection data for binary neutron stars (refer Bayestar tutorial)
 
 # Bayestar tutorial
 - Tutorial for Running bayestar on injection data (priors), [here](https://lscsoft.docs.ligo.org/ligo.skymap/quickstart/bayestar-injections.html)
+
 ## Tasks 
 - [ ] Make Training Dataset input values using the priors mentioned in the above paper using Bilby package 
 - [ ] Generate the training dataset and add the noise inputs (Till here its common with the CNN we used for the Habbard et. al. implementation [here](https://colab.research.google.com/drive/15ysgVLkekNNomT2xp3F0d52l_qNvGNfd) and [here](https://colab.research.google.com/drive/193QYO1Lu59nSOK_xUm-LXDk5rBl-z6Iv))
