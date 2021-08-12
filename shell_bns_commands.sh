@@ -40,7 +40,7 @@ ligo-skymap-stats \
 --area 10 100 \
 --modes \
 -j 8
-
+&
 ligo-skymap-plot-stats bayestar.tsv
 
 
